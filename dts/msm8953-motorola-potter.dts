@@ -1,0 +1,34 @@
+/dts-v1/;
+
+/include/ "msm8953.dtsi"
+/include/ "motorola-carrier-channel-ids.dtsi"
+
+/ {
+	#address-cells = <2>;
+	#size-cells = <2>;
+	qcom,msm-id = <0x125 0x00>;
+	qcom,board-id = <0x44 0x80a0>,
+			<0x44 0x81a0>,
+			<0x44 0x81b0>,
+			<0x44 0x82a0>,
+			<0x45 0x82a0>,
+			<0x45 0x82a2>,
+			<0x45 0x82b2>,
+			<0x46 0x83a0>;
+
+	model = "Motorola Moto G5 Plus (potter)";
+	compatible = "motorola,potter", "qcom,msm8953", "lk2nd,device";
+	lk2nd,pstore = <0xef000000 0x80000>;
+
+	lk2nd,motorola-unitinfo = <1>;
+	panel {
+		compatible = "motorola,potter-panel";
+
+		qcom,mdss_dsi_mot_tianma_520_1080p_vid_v0 {
+			compatible = "tianma,tl052vdpx02";
+		};
+		qcom,mdss_dsi_mot_boe_520_1080p_vid_v0 {
+			compatible = "boe,bs052fhm-a00-6c01";
+		};
+	};
+};

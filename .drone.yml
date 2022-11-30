@@ -1,0 +1,17 @@
+kind: pipeline
+name: x86_64
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+  - name: build
+    image: debian:buster
+    commands:
+      - nproc && grep Mem /proc/meminfo && df -hT .
+      - apt-get update -qq && apt-get install -yqq gcc-arm-none-eabi device-tree-compiler libfdt-dev make python > /dev/null
+      - make -j$(nproc) TOOLCHAIN_PREFIX=arm-none-eabi- msm8916-secondary
+
+trigger:
+  event: [push, pull_request, tag]

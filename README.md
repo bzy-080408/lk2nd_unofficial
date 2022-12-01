@@ -87,3 +87,4 @@ Replace `TOOLCHAIN_PREFIX` with the path to your tool chain.
 
 ## Contact
 Ping `minecrell`/`Mis012`/`uknown`/`gavodavo` on [`#postmarketos-mainline`](https://wiki.postmarketos.org/wiki/Matrix_and_IRC).
+## 警告： 根据GNU GPLv2协议，许可社会公众享有：运行、复制软件的自由，发行传播软件的自由，获得软件源码的自由，改进软件并将自己作出的改进版本向社会发行传播的自由，并且不能更改许可证

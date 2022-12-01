@@ -87,5 +87,3 @@ Replace `TOOLCHAIN_PREFIX` with the path to your tool chain.
 
 ## Contact
 Ping `minecrell`/`Mis012`/`uknown`/`gavodavo` on [`#postmarketos-mainline`](https://wiki.postmarketos.org/wiki/Matrix_and_IRC).
-# lk2nd-hwcan
-# lk2nd-hwcan

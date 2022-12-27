@@ -5,6 +5,6 @@
 
 / {
 	model = "Huawei Technologies, Inc. CAN-AL00";
-	compatible = "huawei,CAN-AL00", "qcom,msm8953", "lk2nd,device";https://github.com/bzy-080408/lk2nd-hwcan/blob/main/dts/can-al00-va.dts
+	compatible = "huawei,CAN-AL00", "qcom,msm8953", "lk2nd,device";
 	qcom,board-id= <8099 0>;
 };

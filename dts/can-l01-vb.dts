@@ -5,6 +5,6 @@
 
 / {
 	model = "Huawei Technologies, Inc. CAN-L01";
-	compatible = "huawei,CAN-AL00", "qcom,msm8953", "lk2nd,device";
+	compatible = "huawei,CAN-L01", "qcom,msm8953", "lk2nd,device";
 	qcom,board-id= <8051 0>;
 };

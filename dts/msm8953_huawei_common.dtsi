@@ -1,0 +1,6 @@
+
+/ {
+  model = "Qualcomm Technologies, Inc. MSM 8953";
+	compatible = "qcom,msm8953";
+	qcom,msm-id = <293 0x0>;
+};

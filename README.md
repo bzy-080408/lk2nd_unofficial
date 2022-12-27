@@ -1,4 +1,4 @@
-### 今日处于施工阶段，我正在添加CAN-L01，CAN-AL00等等10+的device-tree，没改完，所以拉下来的代码可能编译不过，今日改完之后我将会发布新的release
+### 近日处于施工阶段，我正在添加CAN-L01，CAN-AL00等等10+的device-tree，没改完，所以拉下来的代码可能编译不过，今日改完之后我将会发布新的release
 # lk2nd
 lk2nd是一个在高通MSM设备上面运行的bootloader,
 基于 [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).

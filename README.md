@@ -1,65 +1,37 @@
 # lk2nd
-lk2nd is a bootloader for Qualcomm MSM devices,
-based on the [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).
+lk2nd是一个在高通MSM设备上面运行的bootloader,
+基于 [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).
 It provides an Android Fastboot interface on devices where the stock bootloader
 does not provide Fastboot (e.g. Samsung).
 
-lk2nd does not replace the stock bootloader. It is packaged into an Android
-boot image and then loaded by the stock bootloader as a "secondary" bootloader.
-The real Android boot image is placed into the boot partition with 1 MB offset,
-and then loaded by lk2nd.
+lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导映像，然后由股票引导加载程序作为“辅助”引导加载程序加载。真正的Android引导映像被放置在具有1MB偏移的引导分区中，然后用lk2nd加载。
 
-## Supported SoCs
+## 支持的SoC
 - MSM8952 (MSM8940)
 - MSM8953 (SDM450,SDM625,SDM626)
 - SDM632
 
-### Supported devices
-- Motorola Moto G4 Play (harpia)
-- Samsung Galaxy A3 (2015) - SM-A300FU
-- Samsung Galaxy A5 (2015) - SM-A500FU
-- Samsung Galaxy J5 (2016) - SM-J510FN
-- Samsung Galaxy S4 Mini Value Edition - GT-I9195I
-- Samsung Galaxy Tab A 8.0 LTE (2015) - SM-T357W
-- Samsung Galaxy Tab A 9.7 WiFi (2015) - SM-T550
-- Wileyfox Swift
-- Samsung Galaxy A6+ (2018) - SM-A605FN
-- Xiaomi Redmi 4X - santoni
-- Xiaomi Redmi Note 4X Snapdragon - mido
-- Xiaomi Redmi Note 5 / 5 Plus Snapdragon - vince
-- Meizu M6 Note - m1721
-- Motorola Moto G7 Power - ocean
-- Xiaomi Mi A2 Lite - daisy
-- Xiaomi Mi A1 - tissot
-- XIaomi Mi A2 Lite - daisy
+### 支持的设备
 - Huawei hwcan(nova/nova plus,G9,Maimang5)
+# 注：此分支是来自主线的克隆版本，并且加入了针对华为麦芒5的适配，如果需要移植或者下载针对其他设备的lk2nd请前往主线下载
 
-## Installation
-1. Download `lk2nd.img` (as of now there's no build available so you'll need to build it yourself.)
-2. Flash `lk2nd.img` using the stock flashing procedure:
-  - Fastboot: `fastboot flash boot lk2nd.img`
-  - Samsung: `heimdall flash --BOOT lk2nd.img`
+## 安装
+1. 从release中下载lk2nd
+2. 刷写lk2nd
+  - Fastboot: `fastboot flash boot lk2nd.img`（前提是解锁bootloader，
+  - 使用第三方recovery刷入
 
-## Usage
+## 使用 （凑合着看吧，懂这个的都懂相关的英文）
 lk2nd provides the standard Android fastboot protocol for flashing/booting Android boot images.
 
-Press `Volume Down` while booting to enter Fastboot mode.
-Press `Volume Up` while booting to boot into Recovery mode.
+在启动时按住 `Volume Down` fastboot模式
+在启动时按住 `Volume Up` 进入rec模式
 
-**Note:** If your stock bootloader uses the same key combinations, you need to wait a bit before
-pressing the volume keys. Usually, waiting until the screen turns on and/or the device vibrates
-should be enough to make the stock bootloader ignore the keys.
-
-`fastboot flash lk2nd lk2nd.img` can be used to update lk2nd directory from its
-fastboot interface.
-
-**Note:** `fastboot flash boot boot.img` will flash the actual boot image with 1 MB offset
-into the boot partition. This is done to avoid replacing lk2nd (since it is also booted from
-the boot partition).
+**注意：** `fastboot flash boot boot.img` 将会将真正的Android引导映像被放置在具有1MB偏移的boot分区中，然后用lk2nd加载。
 
 Other fastboot commands work normally.
 
-## Building
+## 编译（注意：请使用主线lk2nd经行移植，我有空也会在此分支合并主线path，针对hwcan的适配我已经请求合并到主线但还没通过）
 ```
 $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
 ```
@@ -85,6 +57,4 @@ Replace `TOOLCHAIN_PREFIX` with the path to your tool chain.
 
 (TODO: Document this properly)
 
-## Contact
-Ping `minecrell`/`Mis012`/`uknown`/`gavodavo` on [`#postmarketos-mainline`](https://wiki.postmarketos.org/wiki/Matrix_and_IRC).
-## 警告： 根据GNU GPLv2协议，许可社会公众享有：运行、复制软件的自由，发行传播软件的自由，获得软件源码的自由，改进软件并将自己作出的改进版本向社会发行传播的自由，并且不能更改许可证
+### 警告： 根据GNU GPLv2协议，许可社会公众享有：运行、复制软件的自由，发行传播软件的自由，获得软件源码的自由，改进软件并将自己作出的改进版本向社会发行传播的自由，并且不能更改许可证

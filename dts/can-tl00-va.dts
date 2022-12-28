@@ -1,0 +1,8 @@
+/include/ "msm8953.dtsi"
+/include/ "msm8953_huawei_common.dtsi"
+
+/ {
+	model = "Huawei Technologies, Inc. CAN-TL00";
+	compatible = "huawei,CAN-TL00", "qcom,msm8953", "lk2nd,device";
+	qcom,board-id= <8082 0>;
+};

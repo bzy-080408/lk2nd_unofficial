@@ -71,5 +71,5 @@ Replace `TOOLCHAIN_PREFIX` with the path to your tool chain.
 - Add secondary project config
 
 (TODO: Document this properly)
-
+### 作者：Qemu安卓，酷安、贴吧、qq、b站同名
 ### 警告： 根据GNU GPLv2协议，许可社会公众享有：运行、复制软件的自由，发行传播软件的自由，获得软件源码的自由，改进软件并将自己作出的改进版本向社会发行传播的自由，并且不能更改许可证

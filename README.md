@@ -32,6 +32,20 @@ lk2nd provides the standard Android fastboot protocol for flashing/booting Andro
 
 Other fastboot commands work normally.
 
+##更新日志
+22-12-29:
+添加支持：
+除了MLA_UL00外的其他设备（MLA_UL00的device-tree我并没有找到，请用户提交msm-id和board-id给我）
+22-12-28：
+添加支持：
+can-al00(va-vd)
+can-cl00(va-vd)
+can-l01-va
+更新:MLA_AL00_VD
+22-11-30：
+添加支持：
+MLA_AL00_VD
+
 ## 编译（注意：请使用主线lk2nd经行移植，我有空也会在此分支合并主线path，针对hwcan的适配我已经请求合并到主线但还没通过）
 ```
 $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary

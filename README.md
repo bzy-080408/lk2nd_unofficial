@@ -1,4 +1,4 @@
-### 近日处于施工阶段，我正在添加CAN-L01，CAN-AL00等等10+的device-tree，没改完，所以拉下来的代码可能编译不过，今日改完之后我将会发布新的release
+### log:今日施工已经完成，可以下载最新的release
 # lk2nd
 lk2nd是一个在高通MSM设备上面运行的bootloader,
 基于 [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).
@@ -32,18 +32,18 @@ lk2nd provides the standard Android fastboot protocol for flashing/booting Andro
 
 Other fastboot commands work normally.
 
-##更新日志
-22-12-29:
+## 更新日志
+# 22-12-29:
 添加支持：
 除了MLA_UL00外的其他设备（MLA_UL00的device-tree我并没有找到，请用户提交msm-id和board-id给我）
-22-12-28：
+# 22-12-28：
 添加支持：
 can-al00(va-vd)
 can-cl00(va-vd)
 can-l01-va
 更新:MLA_AL00_VD
 22-11-30：
-添加支持：
+# 添加支持：
 MLA_AL00_VD
 
 ## 编译（注意：请使用主线lk2nd经行移植，我有空也会在此分支合并主线path，针对hwcan的适配我已经请求合并到主线但还没通过）

@@ -42,7 +42,7 @@ can-al00(va-vd)
 can-cl00(va-vd)  
 can-l01-va  
 更新:MLA_AL00_VD  
-#22-11-30：  
+# 22-11-30：  
 添加支持：  
 MLA_AL00_VD   
 

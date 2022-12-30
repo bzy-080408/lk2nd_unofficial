@@ -33,7 +33,7 @@ Other fastboot commands work normally.
 
 ## log
 # 22-12-30:
-整理了代码，可以拉下来自行编译了.取消了合并主线请求，因为设备树太多了。
+整理了代码，可以拉下来自行编译了.取消了合并主线请求，因为设备树太多了。现在我在msm8953 mainline的聊天室里面请求往主线合并。
 # 22-12-29:
 添加支持：  
 除了MLA_UL00外的其他设备（MLA_UL00的device-tree我并没有找到，请用户提交msm-id和board-id给我）  

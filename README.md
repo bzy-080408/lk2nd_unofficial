@@ -18,7 +18,7 @@ lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导�
 ## 安装
 1. 从release中下载lk2nd
 2. 刷写lk2nd
-  - Fastboot: `fastboot flash boot lk2nd.img`（前提是解锁bootloader，
+  - Fastboot: `fastboot flash boot lk2nd.img`（前提是解锁bootloader)
   - 使用第三方recovery刷入
 
 ## 使用 （凑合着看吧，懂这个的都懂相关的英文）
@@ -32,6 +32,8 @@ lk2nd provides the standard Android fastboot protocol for flashing/booting Andro
 Other fastboot commands work normally.
 
 ## log
+# 22-12-30:
+整理了代码，可以拉下来自行编译了
 # 22-12-29:
 添加支持：  
 除了MLA_UL00外的其他设备（MLA_UL00的device-tree我并没有找到，请用户提交msm-id和board-id给我）  

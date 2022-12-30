@@ -33,7 +33,7 @@ Other fastboot commands work normally.
 
 ## log
 # 22-12-30:
-整理了代码，可以拉下来自行编译了
+整理了代码，可以拉下来自行编译了.取消了合并主线请求，因为设备树太多了。
 # 22-12-29:
 添加支持：  
 除了MLA_UL00外的其他设备（MLA_UL00的device-tree我并没有找到，请用户提交msm-id和board-id给我）  
@@ -48,7 +48,7 @@ can-l01-va
 添加支持：  
 MLA_AL00_VD   
 
-## 编译（注意：请使用主线lk2nd经行移植，我有空也会在此分支合并主线path，针对hwcan的适配我已经请求合并到主线但还没通过）
+## 编译（注意：请使用主线lk2nd经行移植，我有空也会在此分支合并主线path）
 ```
 $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
 ```

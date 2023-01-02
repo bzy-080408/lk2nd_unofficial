@@ -84,5 +84,9 @@ $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
 - Add secondary project config
 
 (TODO: Document this properly)
-### 作者：Qemu安卓，酷安、贴吧、qq、b站同名
+### 联系：
+- Qemu安卓，酷安、贴吧、qq、b站同名
+- 国区克隆（允许提交适配请求，issue，合并代码等）：
+访问链接加入我的团队「lk2nd」，一起体验 CODING 一站式软件研发管理协作平台。
+https://e.coding.net/invite?key=c5c4db4651d267648444
 ### 警告： 根据GNU GPLv2协议，许可社会公众享有：运行、复制软件的自由，发行传播软件的自由，获得软件源码的自由，改进软件并将自己作出的改进版本向社会发行传播的自由，并且不能更改许可证

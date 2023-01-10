@@ -32,6 +32,9 @@ lk2nd provides the standard Android fastboot protocol for flashing/booting Andro
 Other fastboot commands work normally.
 
 ## log
+# 23-1-10 
+没后续了，有bug我修，新增适配可以提交issue。
+
 # 22-12-30 20:55 ：
 msm8953 mainline分支的管理人员在聊天室内驳回了我的合并主线请求，新进展随后通知
 # 22-12-30:

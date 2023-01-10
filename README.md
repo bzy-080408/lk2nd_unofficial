@@ -57,7 +57,8 @@ MLA_AL00_VD
 ```
 $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
 ```
-
+# 捐赠
+![donation](donation.jpg)    
 **Requirements:**
 - ARM (32 bit) GCC tool chain
   - Arch Linux: `arm-none-eabi-gcc`

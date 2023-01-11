@@ -7,13 +7,12 @@ does not provide Fastboot (e.g. Samsung).
 lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导映像，然后由股票引导加载程序作为“辅助”引导加载程序加载。真正的Android引导映像被放置在具有1MB偏移的引导分区中，然后用lk2nd加载。
 
 ## 支持的SoC
-- MSM8952 (MSM8940)
 - MSM8953 (SDM450,SDM625,SDM626)
-- SDM632
 
 ### 支持的设备
 - Huawei hwcan(nova/nova plus,G9,Maimang5)
 # 注：此分支是来自主线的克隆版本，并且只加入了针对华为麦芒5的适配，其他设备请不要使用这个分支，如果需要移植或者下载针对其他设备的lk2nd请前往主线下载
+# 其他华为msm8953的设备还有哪个我忘记了跟我说一下我移植上去
 
 ## 安装
 1. 从release中下载lk2nd
@@ -63,8 +62,8 @@ $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
 ```
 # 捐赠
 ![donation](donation.jpg)    
-**Requirements:**
-- ARM (32 bit) GCC tool chain
+**编译需要的软件包:**
+- ARM (32 bit) GCC tool chain  
   - Arch Linux: `arm-none-eabi-gcc`
   - Alpine Linux and postmarketOS: `gcc-arm-none-eabi`
   - Debian and Ubuntu: `gcc-arm-none-eabi`
@@ -81,17 +80,6 @@ $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
 - GNU tar
   - Alpine Linux and postmarketOS: `tar`
 
-## Porting
-### To other devices with supported Socs
-- Add a simple device tree to `dts/`. You just need `model` and the
-  `qcom,msm-id`/`qcom,board-id` from downstream.
-
-### To other SoCs
-- Cherry-pick changes
-- Make some changes
-- Add secondary project config
-
-(TODO: Document this properly)
 ### 联系：
 - Qemu安卓，酷安、贴吧、qq、b站同名
 - 国区克隆（允许提交适配请求，issue，合并代码等）：

@@ -28,10 +28,10 @@ and then loaded by lk2nd.
 - Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
 
 ## Installation
-1. Download `lk2nd.img` (as of now there's no build available so you'll need to build it yourself.)
-2. Flash `lk2nd.img` using the stock flashing procedure:
+1. unlock the bootloader
+2. Download `lk2nd.img` (as of now there's no build available so you'll need to build it yourself.)
+3. Flash `lk2nd.img` using the stock flashing procedure:
   - Fastboot: `fastboot flash boot lk2nd.img`
-  - Samsung: `heimdall flash --BOOT lk2nd.img`
 
 ## Usage
 lk2nd provides the standard Android fastboot protocol for flashing/booting Android boot images.
@@ -57,11 +57,26 @@ Other fastboot commands work normally.
 $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
 ```
 
-**Requirements:**
-- ARM (32 bit) GCC tool chain
+# donation
+![donation](donation.jpg)    
+**requests:**
+- ARM (32 bit) GCC tool chain  
   - Arch Linux: `arm-none-eabi-gcc`
+  - Alpine Linux and postmarketOS: `gcc-arm-none-eabi`
+  - Debian and Ubuntu: `gcc-arm-none-eabi`
+  - Fedora: `arm-none-eabi-gcc-cs`
 - [Device Tree Compiler](https://git.kernel.org/pub/scm/utils/dtc/dtc.git)
   - Arch Linux: `dtc`
+  - Alpine Linux and postmarketOS: `dtc`
+  - Debian and Ubuntu: `device-tree-compiler`
+  - Fedora: `dtc`
+- libfdt
+  - Alpine Linux and postmarketOS: `dtc-dev`
+  - Debian and Ubuntu: `libfdt-dev`
+  - Fedora: `libfdt-devel`
+- GNU tar
+  - Alpine Linux and postmarketOS: `tar`
+
 
 Replace `TOOLCHAIN_PREFIX` with the path to your tool chain.
 `lk2nd.img` is built and placed into `build-<SoC>-secondary/lk2nd.img`.

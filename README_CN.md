@@ -44,6 +44,9 @@ lk2nd provides the standard Android fastboot protocol for flashing/booting Andro
 Other fastboot commands work normally.
 
 ## log
+# 23-1-20
+完，edk2也不会。。。。。
+给点捐赠吧。。。
 # 23-1-11  
 由于postmarketos我搞不上去（哪位大佬来搞一下）  
 我决定开始移植edk2 （EFIDroid）

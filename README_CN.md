@@ -9,13 +9,23 @@ lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导�
 ### 移植postmarketos必备   
 
 ## 支持的SoC
-- MSM8953 (SDM450,SDM625,SDM626)
-### 其他soc在其他branch
+- MSM8953
 
 ### 支持的设备
-- Huawei hwcan(nova/nova plus,G9,Maimang5)
-# 其他华为设备需要移植的可以联系我，无偿，但是不保证成功（华为设备树一堆，工程有亿点点大，不妨捐赠一点小费）。
-# 其他华为msm8953的设备还有哪个我忘记了跟我说一下我移植上去
+- 升级版型号和普通版差不多(e.g. MLA-AL10 和 MLA-AL00一样)  
+- Huawei CAN-AL00
+- Huawei CAN-L01
+- Huawei CAN-L02
+- Huawei CAN-L03
+- Huawei CAN-TL00
+- Huawei MLA-AL00
+- Huawei MLA-L01
+- Huawei MLA-L02
+- Huawei MLA-L03
+- Huawei MLA-TL00
+- Huawei MLA-UL00 (可能用不了，因为为找不到对应的设备树)
+### 其他华为设备需要移植的可以联系我，无偿，但是不保证成功（华为设备树一堆，工程有亿点点大，不妨捐赠一点小费）。
+### 其他华为msm8953的设备还有哪个我忘记了跟我说一下我移植上去
 
 ## 安装
 1. 从release中下载lk2nd

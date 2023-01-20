@@ -11,7 +11,7 @@ The real Android boot image is placed into the boot partition with 1 MB offset,
 and then loaded by lk2nd.
 
 ## Supported SoCs
-- MSM8953 (SDM450,SDM625,SDM626)
+- MSM8953
 
 ### Supported devices
 - the Plus mode is same as the gernic mode (e.g. MLA-AL10 is same as MLA-AL00)  

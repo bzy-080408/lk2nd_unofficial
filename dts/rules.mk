@@ -27,5 +27,7 @@ DTBS += \
 	$(LOCAL_DIR)/mla-l02-va.dtb \
 	$(LOCAL_DIR)/mla-l03-va.dtb \
 	$(LOCAL_DIR)/xiaomi_oxyged.dtb \
-	$(LOCAL_DIR)/xiaomi-vince.dtb
+	$(LOCAL_DIR)/xiaomi-vince.dtb \
+	$(LOCAL_DIR)/xiaomi-daisy.dtb \
+	$(LOCAL_DIR)/xiaomi-tissot.dtb
 endif

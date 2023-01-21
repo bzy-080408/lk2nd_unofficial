@@ -24,8 +24,10 @@ lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导�
 - Huawei MLA-TL00
 - Huawei MLA-UL00 (可能用不了，因为为找不到对应的设备树)
 #### 小米设备
-- 红米Note4X
 - 小米MAX2
+- 小米A2lite
+- 小米A1
+- 红米note5
 #### 魅族设备
 - Meizu M6 Note
 #### 联想设备

@@ -29,7 +29,9 @@ and then loaded by lk2nd.
 - Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
 #### xiaomi devices
 - Xiaomi MAX2
-- Xiaomi note 4X
+- Xiaomi A2 Lite
+- Xiaomi A1
+- Redmi note 5
 #### Meizu devices
 - Meizu M6 Note
 #### Lenovo devices

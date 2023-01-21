@@ -44,6 +44,8 @@ lk2nd provides the standard Android fastboot protocol for flashing/booting Andro
 Other fastboot commands work normally.
 
 ## log
+# 23-1-21
+添加小米MAX2支持
 # 23-1-20
 完，edk2也不会。。。。。
 给点捐赠吧。。。

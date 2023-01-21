@@ -51,6 +51,7 @@ Other fastboot commands work normally.
 ## log
 # 23-1-21
 添加小米MAX2支持
+添加联想P2支持（未测试）
 # 23-1-20
 完，edk2也不会。。。。。
 给点捐赠吧。。。

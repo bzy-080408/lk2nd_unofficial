@@ -30,6 +30,8 @@ and then loaded by lk2nd.
 #### xiaomi devices
 - Xiaomi MAX2
 - Xiaomi note 4X
+#### Meizu devices
+- Meizu M6 Note
 
 ## Installation
 1. unlock the bootloader

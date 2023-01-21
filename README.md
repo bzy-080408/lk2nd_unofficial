@@ -11,7 +11,7 @@ The real Android boot image is placed into the boot partition with 1 MB offset,
 and then loaded by lk2nd.
 
 ## Supported SoCs
-- MSM8953
+- MSM8937
 
 ### Supported devices
 #### huawei devices

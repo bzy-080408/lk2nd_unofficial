@@ -4,14 +4,13 @@ lk2nd是一个在高通MSM设备上面运行的bootloader,
 It provides an Android Fastboot interface on devices where the stock bootloader
 does not provide Fastboot (e.g. Samsung).
 
-lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导映像，然后由股票引导加载程序作为“辅助”引导加载程序加载。真正的Android引导映像被放置在具有1MB偏移的引导分区中，然后用lk2nd加载。
-
-### 移植postmarketos必备   
+lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导映像，然后由股票引导加载程序作为“辅助”引导加载程序加载。真正的Android引导映像被放置在具有1MB偏移的引导分区中，然后用lk2nd加载。   
 
 ## 支持的SoC
 - MSM8953
 
 ### 支持的设备
+#### 华为设备
 - 升级版型号和普通版差不多(e.g. MLA-AL10 和 MLA-AL00一样)  
 - Huawei CAN-AL00
 - Huawei CAN-L01
@@ -24,8 +23,9 @@ lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导�
 - Huawei MLA-L03
 - Huawei MLA-TL00
 - Huawei MLA-UL00 (可能用不了，因为为找不到对应的设备树)
-### 其他华为设备需要移植的可以联系我，无偿，但是不保证成功（华为设备树一堆，工程有亿点点大，不妨捐赠一点小费）。
-### 其他华为msm8953的设备还有哪个我忘记了跟我说一下我移植上去
+#### 小米设备
+- 红米Note4X
+- 小米MAX2
 
 ## 安装
 1. 从release中下载lk2nd

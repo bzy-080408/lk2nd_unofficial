@@ -29,6 +29,7 @@ and then loaded by lk2nd.
 - Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
 #### xiaomi devices
 - Xiaomi MAX2
+- Xiaomi note 4X
 
 ## Installation
 1. unlock the bootloader

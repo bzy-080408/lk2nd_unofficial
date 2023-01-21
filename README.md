@@ -14,6 +14,7 @@ and then loaded by lk2nd.
 - MSM8953
 
 ### Supported devices
+#### huawei devices
 - the Plus mode is same as the gernic mode (e.g. MLA-AL10 is same as MLA-AL00)  
 - Huawei CAN-AL00
 - Huawei CAN-L01
@@ -26,6 +27,8 @@ and then loaded by lk2nd.
 - Huawei MLA-L03
 - Huawei MLA-TL00
 - Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
+#### xiaomi devices
+- Xiaomi MAX2
 
 ## Installation
 1. unlock the bootloader

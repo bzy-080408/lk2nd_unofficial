@@ -1,11 +1,10 @@
 /dts-v1/;
 
 /include/ "msm8953.dtsi"
-/include/ "msm8953_huawei_common.dtsi"
 
 / {
 	model = "Xiaomi MAX2";
-	compatible = "xiaomi,oxygen", "qcom,msm8953", "lk2nd,device"
-  qcom,msm-id = <293 0x0>;
+	compatible = "xiaomi,oxygen", "qcom,msm8953", "lk2nd,device";
+        qcom,msm-id = <293 0x0>;
 	qcom,board-id= <26 0>;
 };

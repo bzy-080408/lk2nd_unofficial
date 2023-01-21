@@ -32,6 +32,8 @@ and then loaded by lk2nd.
 - Xiaomi note 4X
 #### Meizu devices
 - Meizu M6 Note
+#### Lenovo devices
+- Lenovo P2(havent test)
 
 ## Installation
 1. unlock the bootloader

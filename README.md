@@ -15,27 +15,9 @@ and then loaded by lk2nd.
 
 ### Supported devices
 #### huawei devices
-- the Plus mode is same as the gernic mode (e.g. MLA-AL10 is same as MLA-AL00)  
-- Huawei CAN-AL00
-- Huawei CAN-L01
-- Huawei CAN-L02
-- Huawei CAN-L03
-- Huawei CAN-TL00
-- Huawei MLA-AL00
-- Huawei MLA-L01
-- Huawei MLA-L02
-- Huawei MLA-L03
-- Huawei MLA-TL00
-- Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
 #### xiaomi devices
-- Xiaomi MAX2
-- Xiaomi A2 Lite
-- Xiaomi A1
-- Redmi note 5
 #### Meizu devices
-- Meizu M6 Note
 #### Lenovo devices
-- Lenovo P2(havent test)
 
 ## Installation
 1. unlock the bootloader

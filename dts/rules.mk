@@ -29,5 +29,6 @@ DTBS += \
 	$(LOCAL_DIR)/xiaomi_oxyged.dtb \
 	$(LOCAL_DIR)/xiaomi-vince.dtb \
 	$(LOCAL_DIR)/xiaomi-daisy.dtb \
-	$(LOCAL_DIR)/xiaomi-tissot.dtb
+	$(LOCAL_DIR)/xiaomi-tissot.dtb \
+	$(LOCAL_DIR)/meizu-m1721.dtb
 endif

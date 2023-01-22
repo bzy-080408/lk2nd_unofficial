@@ -27,6 +27,7 @@ and then loaded by lk2nd.
 - Huawei MLA-L03
 - Huawei MLA-TL00
 - Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
+- Other huawei msm8953 device can try to use this projcet,if it cannot boot,please tell me at Issues with your msm-id and board-id (in the '/proc/device-tree' )
 #### xiaomi devices
 - Xiaomi MAX2
 - Xiaomi A2 Lite

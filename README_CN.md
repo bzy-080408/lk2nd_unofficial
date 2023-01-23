@@ -12,26 +12,9 @@ lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导�
 ### 支持的设备
 #### 华为设备
 - 升级版型号和普通版差不多(e.g. MLA-AL10 和 MLA-AL00一样)  
-- Huawei CAN-AL00
-- Huawei CAN-L01
-- Huawei CAN-L02
-- Huawei CAN-L03
-- Huawei CAN-TL00
-- Huawei MLA-AL00
-- Huawei MLA-L01
-- Huawei MLA-L02
-- Huawei MLA-L03
-- Huawei MLA-TL00
-- Huawei MLA-UL00 (可能用不了，因为为找不到对应的设备树)
 #### 小米设备
-- 小米MAX2
-- 小米A2lite
-- 小米A1
-- 红米note5
 #### 魅族设备
-- Meizu M6 Note
 #### 联想设备
-- lenovo P2(没有测试)
 ## 安装
 1. 从release中下载lk2nd
 2. 刷写lk2nd
@@ -49,35 +32,12 @@ lk2nd provides the standard Android fastboot protocol for flashing/booting Andro
 Other fastboot commands work normally.
 
 ## log
-# 23-1-21
-添加小米MAX2支持
-# 23-1-20
-完，edk2也不会。。。。。
-给点捐赠吧。。。
-# 23-1-11  
-由于postmarketos我搞不上去（哪位大佬来搞一下）  
-我决定开始移植edk2 （EFIDroid）
 
-# 23-1-10 
-没后续了，有bug我修，新增适配可以提交issue。
+# 2023-1-23
+修复一些readme文件中的错误   
 
-# 22-12-30 20:55 ：
-msm8953 mainline分支的管理人员在聊天室内驳回了我的合并主线请求，新进展随后通知
-# 22-12-30:
-整理了代码，可以拉下来自行编译了.取消了合并主线请求，因为设备树太多了。现在我在msm8953 mainline的聊天室里面请求往主线合并。
-# 22-12-29:
-添加支持：  
-除了MLA_UL00外的其他设备（MLA_UL00的device-tree我并没有找到，请用户提交msm-id和board-id给我）  
-注：现在施工已经完成，可以下载最新的release
-# 22-12-28：
-添加支持：  
-can-al00(va-vd)  
-can-cl00(va-vd)  
-can-l01-va  
-更新:MLA_AL00_VD  
-# 22-11-30：  
-添加支持：  
-MLA_AL00_VD   
+# 2023-1-22
+添加msm8937分支
 
 ## 编译（注意：请使用主线lk2nd经行移植，我有空也会在此分支合并主线path）
 ```
@@ -102,7 +62,7 @@ $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
   - Fedora: `libfdt-devel`
 - GNU tar
   - Alpine Linux and postmarketOS: `tar`
-
+编译完成的文件将会在build-msm8937-secondary中
 ### 联系：
 - Qemu安卓，酷安、贴吧、qq、b站同名
 

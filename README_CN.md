@@ -7,7 +7,7 @@ does not provide Fastboot (e.g. Samsung).
 lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导映像，然后由股票引导加载程序作为“辅助”引导加载程序加载。真正的Android引导映像被放置在具有1MB偏移的引导分区中，然后用lk2nd加载。   
 
 ## 支持的SoC
-- MSM8953
+- MSM8937
 
 ### 支持的设备
 #### 华为设备

@@ -91,4 +91,4 @@ Other fastboot commands work normally.
 
 
 Replace `TOOLCHAIN_PREFIX` with the path to your tool chain.
-`lk2nd.img` is built and placed into `build-<SoC>-secondary/lk2nd.img`.
+`lk2nd.img` is built and placed into `build-msm8953-secondary/lk2nd.img`.

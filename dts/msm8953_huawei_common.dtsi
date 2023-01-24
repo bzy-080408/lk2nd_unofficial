@@ -16,7 +16,8 @@
 ◥██◣　　　　◢▄◤
  　　▀██▅▇▀
 哲学114514 */
-
+/*==========================================================*/
+/*English: That tip is only for chinese huawei, it realy Useless*/
 / {
   model = "huawei big error";
 	compatible = "qcom,msm8953";

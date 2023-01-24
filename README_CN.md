@@ -56,7 +56,7 @@ Other fastboot commands work normally.
 - Huawei CPN-W09  
 ## 编译（注意：请使用主线lk2nd经行移植，我有空也会在此分支合并主线path）
 ```
-$ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
+$ make TOOLCHAIN_PREFIX=arm-none-eabi- msm8940-secondary
 ```
 # 捐赠
 ![donation](donation.jpg)    
@@ -77,7 +77,7 @@ $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
   - Fedora: `libfdt-devel`
 - GNU tar
   - Alpine Linux and postmarketOS: `tar`
-编译完成的文件将会在build-msm8937-secondary中
+编译完成的文件将会在build--secondmsm8940ary中
 ### 联系：
 - Qemu安卓，酷安、贴吧、qq、b站同名
 

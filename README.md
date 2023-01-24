@@ -55,7 +55,7 @@ Other fastboot commands work normally.
 
 ## Building
 ```
- make TOOLCHAIN_PREFIX=arm-none-eabi- msm8937-secondary
+ make TOOLCHAIN_PREFIX=arm-none-eabi- msm8940-secondary
 ```
 **do not use aarch64(arm64) toolchain to build it.**
 
@@ -81,4 +81,4 @@ Other fastboot commands work normally.
 
 
 Replace `TOOLCHAIN_PREFIX` with the path to your tool chain.
-`lk2nd.img` is built and placed into `build-msm8937-secondary/lk2nd.img`.
+`lk2nd.img` is built and placed into `build-msm8940-secondary/lk2nd.img`.

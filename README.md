@@ -10,9 +10,9 @@ boot image and then loaded by the stock bootloader as a "secondary" bootloader.
 The real Android boot image is placed into the boot partition with 1 MB offset,
 and then loaded by lk2nd.
 
-## Supported SoCs
+## Supported SoC
 - MSM8953
-
+- Other Socs is on other branch
 ### Supported devices
 #### huawei devices
 - the Plus mode is same as the gernic mode (e.g. MLA-AL10 is same as MLA-AL00)  

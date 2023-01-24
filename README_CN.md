@@ -7,14 +7,24 @@ does not provide Fastboot (e.g. Samsung).
 lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导映像，然后由股票引导加载程序作为“辅助”引导加载程序加载。真正的Android引导映像被放置在具有1MB偏移的引导分区中，然后用lk2nd加载。   
 
 ## 支持的SoC
-- MSM8937
+- MSM8940
 
 ### 支持的设备
+**没有经过测试**
 #### 华为设备
 - 升级版型号和普通版差不多(e.g. MLA-AL10 和 MLA-AL00一样)  
+- Huawei BAH-AL00  
+- Huawei BAH-L01  
+- Huawei BAH-L09  
+- Huawei CPN-AL00  
+- Huawei CPN-L0J  
+- Huawei CPN-L01  
+- Huawei CPN-L09  
+- Huawei CPN-W09  
 #### 小米设备
 #### 魅族设备
 #### 联想设备
+
 ## 安装
 1. 从release中下载lk2nd
 2. 刷写lk2nd
@@ -33,12 +43,17 @@ Other fastboot commands work normally.
 
 ## log
 
-# 2023-1-23
-修复一些readme文件中的错误   
-
-# 2023-1-22
-添加msm8937分支
-
+# 2023-1-24
+添加msm8940分支
+添加设备
+- Huawei BAH-AL00  
+- Huawei BAH-L01  
+- Huawei BAH-L09  
+- Huawei CPN-AL00  
+- Huawei CPN-L0J  
+- Huawei CPN-L01  
+- Huawei CPN-L09  
+- Huawei CPN-W09  
 ## 编译（注意：请使用主线lk2nd经行移植，我有空也会在此分支合并主线path）
 ```
 $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary

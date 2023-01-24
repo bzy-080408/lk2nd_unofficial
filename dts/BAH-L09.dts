@@ -1,0 +1,10 @@
+/dts-v1/;
+#include "huawei_msm8940_common.dtsi"
+#include "msm8940.dtsi"
+/ {
+	model = "Huawei Technologies, Inc. BAH-L09";
+	compatible = "qcom,msm8940-mtp", "qcom,msm8940", "qcom,mtp";
+	qcom,board-id= <8037 0>;
+	qcom,pmic-id = <0x10019 0x020011 0x0 0x0>;
+	huawei,modem_id = <0xFAF80083 0x0>;
+};

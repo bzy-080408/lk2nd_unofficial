@@ -11,10 +11,19 @@ The real Android boot image is placed into the boot partition with 1 MB offset,
 and then loaded by lk2nd.
 
 ## Supported SoCs
-- MSM8937
+- MSM8940
 
 ### Supported devices
+**Havent test***
 #### huawei devices
+- Huawei BAH-AL00  
+- Huawei BAH-L01  
+- Huawei BAH-L09  
+- Huawei CPN-AL00  
+- Huawei CPN-L0J  
+- Huawei CPN-L01  
+- Huawei CPN-L09  
+- Huawei CPN-W09  
 #### xiaomi devices
 #### Meizu devices
 #### Lenovo devices

@@ -37,7 +37,8 @@ and then loaded by lk2nd.
 - Meizu M6 Note
 #### Lenovo devices
 - Lenovo P2(havent test)
-
+#### OPPO devices
+- OPPO R9S (havent test)
 ## Installation
 1. unlock the bootloader
 2. Download `lk2nd.img` (as of now there's no build available so you'll need to build it yourself.)

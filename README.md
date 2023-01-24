@@ -14,7 +14,7 @@ and then loaded by lk2nd.
 - MSM8940
 
 ### Supported devices
-**Havent test***
+**Havent test**
 #### huawei devices
 - Huawei BAH-AL00  
 - Huawei BAH-L01  

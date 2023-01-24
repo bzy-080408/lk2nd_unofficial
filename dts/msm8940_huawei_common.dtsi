@@ -1,0 +1,7 @@
+
+/ {
+model = "Qualcomm Technologies, Inc. MSM8940";
+	compatible = "qcom,msm8940";
+	qcom,msm-id = <313 0x0>;
+	qcom,pmic-id = <0x10019 0x020011 0x0 0x0>;
+};

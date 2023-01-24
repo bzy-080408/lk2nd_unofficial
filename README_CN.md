@@ -32,6 +32,8 @@ lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导�
 - Meizu M6 Note
 #### 联想设备
 - lenovo P2(没有测试)
+#### OPPO设备
+- OPPO R9S（没有测试）
 ## 安装
 1. 从release中下载lk2nd
 2. 刷写lk2nd

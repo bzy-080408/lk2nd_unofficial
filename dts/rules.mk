@@ -1,8 +1,8 @@
 LOCAL_DIR := $(GET_LOCAL_DIR)
 
-ifeq ($(PROJECT), msm8937-secondary)
+ifeq ($(PROJECT), msm8916-secondary)
 DTBS += \
-	$(LOCAL_DIR)/can-al00-va.dtb \
+	$(LOCAL_DIR)/.dtb \
 
 
 endif

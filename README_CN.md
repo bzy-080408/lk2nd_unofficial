@@ -7,7 +7,7 @@ does not provide Fastboot (e.g. Samsung).
 lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导映像，然后由股票引导加载程序作为“辅助”引导加载程序加载。真正的Android引导映像被放置在具有1MB偏移的引导分区中，然后用lk2nd加载。   
 
 ## 支持的SoC
-- MSM8937
+- MSM8916
 
 ### 支持的设备
 #### 华为设备
@@ -33,15 +33,9 @@ Other fastboot commands work normally.
 
 ## log
 
-# 2023-1-23
-修复一些readme文件中的错误   
-
-# 2023-1-22
-添加msm8937分支
-
 ## 编译（注意：请使用主线lk2nd经行移植，我有空也会在此分支合并主线path）
 ```
-$ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
+$ make TOOLCHAIN_PREFIX=arm-none-eabi- msm8916-secondary
 ```
 # 捐赠
 ![donation](donation.jpg)    
@@ -62,7 +56,7 @@ $ make TOOLCHAIN_PREFIX=arm-none-eabi- <SoC>-secondary
   - Fedora: `libfdt-devel`
 - GNU tar
   - Alpine Linux and postmarketOS: `tar`
-编译完成的文件将会在build-msm8937-secondary中
+编译完成的文件将会在build-msm8916-secondary中
 ### 联系：
 - Qemu安卓，酷安、贴吧、qq、b站同名
 

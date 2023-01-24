@@ -11,7 +11,7 @@ The real Android boot image is placed into the boot partition with 1 MB offset,
 and then loaded by lk2nd.
 
 ## Supported SoCs
-- MSM8937
+- MSM8916
 
 ### Supported devices
 #### huawei devices
@@ -46,7 +46,7 @@ Other fastboot commands work normally.
 
 ## Building
 ```
- make TOOLCHAIN_PREFIX=arm-none-eabi- msm8937-secondary
+ make TOOLCHAIN_PREFIX=arm-none-eabi- msm8916-secondary
 ```
 **do not use aarch64(arm64) toolchain to build it.**
 
@@ -72,4 +72,4 @@ Other fastboot commands work normally.
 
 
 Replace `TOOLCHAIN_PREFIX` with the path to your tool chain.
-`lk2nd.img` is built and placed into `build-msm8937-secondary/lk2nd.img`.
+`lk2nd.img` is built and placed into `build-msm8916-secondary/lk2nd.img`.

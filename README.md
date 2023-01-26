@@ -1,5 +1,5 @@
 # [中文](README_CN.md)
-#Note: This Projcet will be read-only before Summer vacation is here. Since next week I will go to school and I will have no time to maintenance this projcet.if you need help,please tell me at this projcet's Issues or send an E-Mail:Bzy080408@outlook.com 
+# Note: This Projcet will be read-only before Summer vacation is here. Since next week I will go to school and I will have no time to maintenance this projcet.if you need help,please tell me at this projcet's Issues or send an E-Mail:Bzy080408@outlook.com 
 # lk2nd
 lk2nd is a bootloader for Qualcomm MSM devices,
 based on the [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).

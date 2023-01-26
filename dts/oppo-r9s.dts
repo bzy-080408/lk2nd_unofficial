@@ -1,6 +1,5 @@
 /dts-v1/;
-
-#include "msm8953.dtsi"
+/include/ "msm8953.dtsi"
 
 / {
 	model = "OPPO R9S";

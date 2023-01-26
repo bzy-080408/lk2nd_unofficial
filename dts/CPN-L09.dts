@@ -1,6 +1,6 @@
 /dts-v1/;
-#include "huawei_msm8940_common.dtsi"
-#include "msm8940.dtsi"
+/include/ "huawei_msm8940_common.dtsi"
+/include/ "msm8940.dtsi"
 / {
 	model = "Huawei Technologies, Inc. CPN-L09";
 	compatible = "qcom,msm8940-mtp", "qcom,msm8940", "qcom,mtp";

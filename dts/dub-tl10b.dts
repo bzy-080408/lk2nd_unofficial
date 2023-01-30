@@ -1,0 +1,11 @@
+/dts-v1/;
+
+/include/ "msm8953.dtsi"
+
+/ {
+	model = "Qualcomm Technologies, Inc. DUB-TL10B";
+	compatible = "qcom,sdm450-qrd", "qcom,sdm450", "qcom,qrd";
+	qcom,board-id = <8104 1>;
+	qcom,pmic-id = <0x010016 0x25 0x0 0x0>;
+	huawei,modem_id = <0xF7FC0107 0x0>;
+};

@@ -1,4 +1,5 @@
 # lk2nd
+# Note:学校下周开学，作为初三党的我肯定马上就没时间维护这个项目了，所以在暑假到来之前这个项目将会为read only，如果有help可以继续提（似乎没人给我提过。。。）或者邮箱联系 Bzy080408@outlook.com 当然b站啊酷安啊贴吧都行，名称都是Qemu安卓。
 lk2nd是一个在高通MSM设备上面运行的bootloader,
 基于 [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).
 It provides an Android Fastboot interface on devices where the stock bootloader
@@ -32,6 +33,8 @@ lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导�
 - Meizu M6 Note
 #### 联想设备
 - lenovo P2(没有测试)
+#### OPPO设备
+- OPPO R9S（没有测试）
 ## 安装
 1. 从release中下载lk2nd
 2. 刷写lk2nd
@@ -51,6 +54,7 @@ Other fastboot commands work normally.
 ## log
 # 23-1-21
 添加小米MAX2支持
+添加联想P2支持（未测试）
 # 23-1-20
 完，edk2也不会。。。。。
 给点捐赠吧。。。

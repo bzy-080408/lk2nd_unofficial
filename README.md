@@ -1,4 +1,5 @@
 # [中文](README_CN.md)
+# Note: This Projcet will be read-only before Summer vacation is here. Since next week I will go to school and I will have no time to maintenance this projcet.if you need help,please tell me at this projcet's Issues or send an E-Mail:Bzy080408@outlook.com 
 # lk2nd
 lk2nd is a bootloader for Qualcomm MSM devices,
 based on the [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).
@@ -10,9 +11,9 @@ boot image and then loaded by the stock bootloader as a "secondary" bootloader.
 The real Android boot image is placed into the boot partition with 1 MB offset,
 and then loaded by lk2nd.
 
-## Supported SoCs
+## Supported SoC
 - MSM8953
-
+- Other Socs is on other branch
 ### Supported devices
 #### huawei devices
 - the Plus mode is same as the gernic mode (e.g. MLA-AL10 is same as MLA-AL00)  
@@ -27,6 +28,7 @@ and then loaded by lk2nd.
 - Huawei MLA-L03
 - Huawei MLA-TL00
 - Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
+- Other huawei msm8953 device can try to use this projcet,if it cannot boot,please tell me at Issues with your msm-id and board-id (in the '/proc/device-tree' )
 #### xiaomi devices
 - Xiaomi MAX2
 - Xiaomi A2 Lite
@@ -36,7 +38,8 @@ and then loaded by lk2nd.
 - Meizu M6 Note
 #### Lenovo devices
 - Lenovo P2(havent test)
-
+#### OPPO devices
+- OPPO R9S (havent test)
 ## Installation
 1. unlock the bootloader
 2. Download `lk2nd.img` (as of now there's no build available so you'll need to build it yourself.)
@@ -90,4 +93,4 @@ Other fastboot commands work normally.
 
 
 Replace `TOOLCHAIN_PREFIX` with the path to your tool chain.
-`lk2nd.img` is built and placed into `build-<SoC>-secondary/lk2nd.img`.
+`lk2nd.img` is built and placed into `build-msm8953-secondary/lk2nd.img`.

@@ -32,6 +32,7 @@ DTBS += \
 	$(LOCAL_DIR)/xiaomi-tissot.dtb \
 	$(LOCAL_DIR)/lenovo-kuntao-p0.dtb \
 	$(LOCAL_DIR)/lenovo-kuntao-p2b1.dtb \
-	$(LOCAL_DIR)/meizu-m1721.dtb 
+	$(LOCAL_DIR)/meizu-m1721.dtb \
+	$(LOCAL_DIR)/oppo-r9s.dtb 
 
 endif

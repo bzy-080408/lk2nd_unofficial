@@ -1,0 +1,9 @@
+/dts-v1/;
+/include/ "msm8953.dtsi"
+
+/ {
+	model = "OPPO R9S";
+	compatible = "OPPO,R9S", "qcom,msm8953", "qcom,mtp";
+	qcom,board-id= <8 0 16017>;
+	qcom,msm-id = <293 0x0>;
+};

@@ -12,7 +12,7 @@ The real Android boot image is placed into the boot partition with 1 MB offset,
 and then loaded by lk2nd.
 
 ## Supported SoC
-- MSM8953
+- MSM8953(sdm625,sdm450)
 - Other Socs is on other branch
 ### Supported devices
 #### huawei devices
@@ -27,7 +27,16 @@ and then loaded by lk2nd.
 - Huawei MLA-L02
 - Huawei MLA-L03
 - Huawei MLA-TL00
+**havent test:**
 - Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
+- Huawei DUB-AL00
+- Huawei DUB-AL10
+- Huawei DUB-AL20
+- Huawei DUB-LX1
+- Huawei DUB-LX2
+- Huawei DUB-LX3
+- Huawei DUB-TL10
+- Huawei DUB-TL20
 - Other huawei msm8953 device can try to use this projcet,if it cannot boot,please tell me at Issues with your msm-id and board-id (in the '/proc/device-tree' )
 #### xiaomi devices
 - Xiaomi MAX2
@@ -72,6 +81,7 @@ Other fastboot commands work normally.
 **do not use aarch64(arm64) toolchain to build it.**
 
 # donation
+PayPal: https://www.paypal.me/QemuAndroid
 ![donation](donation.jpg)    
 **requests:**
 - ARM (32 bit) GCC tool chain  

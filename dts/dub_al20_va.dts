@@ -1,0 +1,11 @@
+/dts-v1/;
+
+/include/ "msm8953.dtsi"
+
+/ {
+	model = "Qualcomm Technologies, Inc. DUB-AL20";
+	compatible = "qcom,sdm450-qrd", "qcom,sdm450", "qcom,qrd";
+	qcom,board-id = <8080 1>;
+	qcom,pmic-id = <0x010016 0x25 0x0 0x0>;
+	huawei,modem_id = <0xF7FC0101 0x0>;
+};

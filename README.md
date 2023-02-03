@@ -26,7 +26,7 @@ and then loaded by lk2nd.
 - Huawei MLA-L01
 - Huawei MLA-L02
 - Huawei MLA-L03
-- Huawei MLA-TL00
+- Huawei MLA-TL00  
 **havent test:**
 - Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
 - Huawei DUB-AL00
@@ -80,8 +80,8 @@ Other fastboot commands work normally.
 ```
 **do not use aarch64(arm64) toolchain to build it.**
 
-# donation
-PayPal: https://www.paypal.me/QemuAndroid
+# donation  
+**PayPal: https://www.paypal.me/QemuAndroid**
 ![donation](donation.jpg)    
 **requests:**
 - ARM (32 bit) GCC tool chain  

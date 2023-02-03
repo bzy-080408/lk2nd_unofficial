@@ -1,5 +1,5 @@
 # lk2nd
-# Note:学校下周开学，作为初三党的我肯定马上就没时间维护这个项目了，所以在暑假到来之前这个项目将会为read only，如果有help可以继续提（似乎没人给我提过。。。）或者邮箱联系 Bzy080408@outlook.com 当然b站啊酷安啊贴吧都行，名称都是Qemu安卓。
+# Note:学校开学，作为初三党的我肯定马上就没时间维护这个项目了，所以在暑假到来之前这个项目将可能会为read only，如果有help可以继续提（似乎没人给我提过。。。）或者邮箱联系 Bzy080408@outlook.com 当然b站啊酷安啊贴吧都行，名称都是Qemu安卓。
 lk2nd是一个在高通MSM设备上面运行的bootloader,
 基于 [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).
 It provides an Android Fastboot interface on devices where the stock bootloader
@@ -8,7 +8,7 @@ does not provide Fastboot (e.g. Samsung).
 lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导映像，然后由股票引导加载程序作为“辅助”引导加载程序加载。真正的Android引导映像被放置在具有1MB偏移的引导分区中，然后用lk2nd加载。   
 
 ## 支持的SoC
-- MSM8953
+- MSM8953(sdm625,sdm450)
 
 ### 支持的设备
 #### 华为设备
@@ -23,7 +23,16 @@ lk2nd不会替换原始bootloader（lk1st）。它被打包到Android中引导�
 - Huawei MLA-L02
 - Huawei MLA-L03
 - Huawei MLA-TL00
-- Huawei MLA-UL00 (可能用不了，因为为找不到对应的设备树)
+- Huawei MLA-UL00 (可能用不了，因为为找不到对应的设备树)   
+**未经过测试的**
+- Huawei DUB-AL00
+- Huawei DUB-AL10
+- Huawei DUB-AL20
+- Huawei DUB-LX1
+- Huawei DUB-LX2
+- Huawei DUB-LX3
+- Huawei DUB-TL10
+- Huawei DUB-TL20
 #### 小米设备
 - 小米MAX2
 - 小米A2lite
@@ -52,6 +61,8 @@ lk2nd provides the standard Android fastboot protocol for flashing/booting Andro
 Other fastboot commands work normally.
 
 ## log
+# 23-2-3
+添加华为sdm450设备支持（未测试)
 # 23-1-21
 添加小米MAX2支持
 添加联想P2支持（未测试）

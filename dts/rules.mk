@@ -29,14 +29,13 @@ DTBS += \
 	$(LOCAL_DIR)/chq_al00a_va.dtb \
 	$(LOCAL_DIR)/dub_al00a_va.dtb \
 	$(LOCAL_DIR)/dub_al20_va.dtb \
-	$(LOCAL_DIR)/dub_lx1.dtb \
-	$(LOCAL_DIR)/dub_lx2.dtb \
-	$(LOCAL_DIR)/dub_lx3.dtb \
-	$(LOCAL_DIR)/dub-al10b-va.dtb \
+	$(LOCAL_DIR)/dub_lx1_va.dtb \
+	$(LOCAL_DIR)/dub_lx2_va.dtb \
+	$(LOCAL_DIR)/dub_lx2_vb.dtb \
+	$(LOCAL_DIR)/dub_lx3_va.dtb \
 	$(LOCAL_DIR)/dub-al10a-va.dtb \
 	$(LOCAL_DIR)/dub-tl10b.dtb \
 	$(LOCAL_DIR)/dub-tl20-va.dtb \
-	
 	$(LOCAL_DIR)/xiaomi_oxyged.dtb \
 	$(LOCAL_DIR)/xiaomi-vince.dtb \
 	$(LOCAL_DIR)/xiaomi-daisy.dtb \

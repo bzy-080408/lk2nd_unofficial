@@ -29,6 +29,7 @@ and then loaded by lk2nd.
 - Huawei MLA-TL00  
 **havent test:**
 - Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
+**device-tree have bug**
 - Huawei DUB-AL00
 - Huawei DUB-AL10
 - Huawei DUB-AL20
@@ -43,6 +44,7 @@ and then loaded by lk2nd.
 - Xiaomi A2 Lite
 - Xiaomi A1
 - Redmi note 5
+- Redmi note 4 prime(markw)
 #### Meizu devices
 - Meizu M6 Note
 #### Lenovo devices

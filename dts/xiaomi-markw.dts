@@ -1,0 +1,8 @@
+/dts-v1/;
+/include/ "msm8953.dtsi"
+/ {
+	model = "Xiaomi markw (MSMTITANIUM QRD WT88553)";
+	compatible = "xiaomi,markw", "qcom,msm8953", "qcom,qrd";
+  qcom,msm-id = <293 0x0>;
+	qcom,board-id= <0x1000b 1>;
+};

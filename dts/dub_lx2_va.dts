@@ -1,7 +1,7 @@
 /dts-v1/;
 
 /include/ "msm8953.dtsi"
-
+/include/ "sdm450_huawei_common.dtsi"
 / {
 	model = "Qualcomm Technologies, Inc. DUB-LX2";
 	compatible = "qcom,sdm450-qrd", "qcom,sdm450", "qcom,qrd";

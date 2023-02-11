@@ -28,8 +28,7 @@ and then loaded by lk2nd.
 - Huawei MLA-L03
 - Huawei MLA-TL00  
 **havent test:**
-- Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)
-**device-tree have bug**
+- Huawei MLA-UL00 (Maybe cannot use because I cannot find the device-tree)  
 - Huawei DUB-AL00
 - Huawei DUB-AL10
 - Huawei DUB-AL20

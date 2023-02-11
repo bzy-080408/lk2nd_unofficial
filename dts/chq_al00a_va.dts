@@ -1,6 +1,7 @@
 /dts-v1/;
 
 /include/ "msm8953.dtsi"
+/include/ "sdm450_huawei_common.dtsi"
 / {
 	model = "Qualcomm Technologies, Inc. CHQ-AL00A";
 	compatible = "qcom,sdm450-qrd", "qcom,sdm450", "qcom,qrd";

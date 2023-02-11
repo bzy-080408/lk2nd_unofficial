@@ -61,6 +61,9 @@ lk2nd provides the standard Android fastboot protocol for flashing/booting Andro
 Other fastboot commands work normally.
 
 ## log
+# 23-2-11 
+将华为sdm450设备编译进去了  
+
 # 23-2-3
 添加华为sdm450设备支持（未测试)
 # 23-1-21

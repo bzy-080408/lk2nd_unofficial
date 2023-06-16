@@ -19,7 +19,37 @@
 /*==========================================================*/
 /*English: That tip is only for chinese huawei, it realy Useless*/
 / {
-  model = "huawei big error";
+  model = "huawei sdm625 common devices";
 	compatible = "qcom,msm8953";
 	qcom,msm-id = <293 0x0>;
+  	panel {
+		compatible = "huawei,sdm625-panel";
+		qcom,mdss_dsi_boe_otm1906c_5p5_1080p_cmd {
+			compatible = "huawei,boe_otm1906c_5p5_1080p_cmd";
+		};
+		qcom,mdss_dsi_boe_td4322_5p5_1080p_cmd {
+			compatible = "huawei,boe_td4322_5p5_1080p_cmd";
+		};
+		qcom,mdss_dsi_boe_test1906c_5p5_1080p_cmd {
+			compatible = "huawei,boe_test1906c_5p5_1080p_cmd";
+		};
+    qcom,mdss_dsi_ctc_nt35596s_5p5_1080p_video{
+      compatible = "huawei,ctc_nt35596s_5p5_1080p_video";
+    };
+    qcom,mdss_dsi_ctc_otm1906c_5p5_1080p_cmd{
+      compatible = "huawei,ctc_otm1906c_5p5_1080p_cmd";
+    };
+    qcom,mdss_dsi_jdi_r63452_5p5_1080p_cmd{
+      compatible = "huawei,jdi_r63452_5p5_1080p_cmd";
+    };
+    qcom,mdss_dsi_tianma_fic8736_5p5_1080p_cmd{
+      compatible = "huawei,tianma_fic8736_5p5_1080p_cmd";
+    };
+    qcom,mdss_dsi_tianma_focal8716_5p5_1080p_video{
+      compatible = "huawei,tianma_focal8716_5p5_1080p_video";
+    };
+    qcom,mdss_dsi_tianma_otm1906c_5p5_1080p_cmd{
+      compatible = "huawei,tianma_otm1906c_5p5_1080p_cmd";
+    };
+	};
 };

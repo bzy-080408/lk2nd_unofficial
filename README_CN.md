@@ -1,5 +1,4 @@
 # lk2nd
-# Note:学校开学，作为初三党的我肯定马上就没时间维护这个项目了，所以在暑假到来之前这个项目将可能会为read only，如果有help可以继续提（似乎没人给我提过。。。）或者邮箱联系 Bzy080408@outlook.com 当然b站啊酷安啊贴吧都行，名称都是Qemu安卓。
 lk2nd是一个在高通MSM设备上面运行的bootloader,
 基于 [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).
 It provides an Android Fastboot interface on devices where the stock bootloader

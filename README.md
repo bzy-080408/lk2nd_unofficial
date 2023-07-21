@@ -1,4 +1,5 @@
 # [中文](README_CN.md)
+# Some of device here has merged.So archive
 # lk2nd
 lk2nd is a bootloader for Qualcomm MSM devices,
 based on the [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).
